@@ -17,6 +17,13 @@
 		E8DB03902597A117000384E5 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DB038E2597A117000384E5 /* SplashVC.xib */; };
 		E8DB049425989283000384E5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB049225989283000384E5 /* LoginVC.swift */; };
 		E8DB049525989283000384E5 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DB049325989283000384E5 /* LoginVC.xib */; };
+		E8EAF7572598F53000204483 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EAF73E2598F53000204483 /* Gilroy-Medium.ttf */; };
+		E8EAF7582598F53000204483 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EAF73F2598F53000204483 /* Gilroy-ExtraBold.ttf */; };
+		E8EAF7592598F53000204483 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EAF7402598F53000204483 /* Gilroy-Light.ttf */; };
+		E8EAF75A2598F53000204483 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EAF7412598F53000204483 /* Gilroy-SemiBold.ttf */; };
+		E8EAF75B2598F53000204483 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EAF7422598F53000204483 /* Gilroy-Bold.ttf */; };
+		E8EAF76D2598FB6000204483 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EAF76B2598FB6000204483 /* RegistrationVC.swift */; };
+		E8EAF76E2598FB6000204483 /* RegistrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8EAF76C2598FB6000204483 /* RegistrationVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		E8DB038E2597A117000384E5 /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 		E8DB049225989283000384E5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E8DB049325989283000384E5 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		E8EAF73E2598F53000204483 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		E8EAF73F2598F53000204483 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E8EAF7402598F53000204483 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		E8EAF7412598F53000204483 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		E8EAF7422598F53000204483 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		E8EAF76B2598FB6000204483 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		E8EAF76C2598FB6000204483 /* RegistrationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationVC.xib; sourceTree = "<group>"; };
 		FE8EFEFE9726761105527DF1 /* Pods-eCommerceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eCommerceDemo.release.xcconfig"; path = "Target Support Files/Pods-eCommerceDemo/Pods-eCommerceDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,10 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				E8DB03942597A122000384E5 /* AppDelegate */,
-				E8DB038B2597A0DC000384E5 /* Modules */,
 				E8190E75259114DA00F65AE7 /* Assets.xcassets */,
 				E8190E77259114DA00F65AE7 /* LaunchScreen.storyboard */,
 				E8190E7A259114DA00F65AE7 /* Info.plist */,
+				E8DB038B2597A0DC000384E5 /* Modules */,
+				E8EAF7192598F53000204483 /* Resources */,
 			);
 			path = eCommerceDemo;
 			sourceTree = "<group>";
@@ -181,6 +196,7 @@
 		E8DB04872598922B000384E5 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				E8EAF7622598FB1700204483 /* Registration */,
 				E8DB048925989242000384E5 /* Login */,
 			);
 			path = Auth;
@@ -193,6 +209,35 @@
 				E8DB049325989283000384E5 /* LoginVC.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		E8EAF7192598F53000204483 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8EAF73D2598F53000204483 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8EAF73D2598F53000204483 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E8EAF73E2598F53000204483 /* Gilroy-Medium.ttf */,
+				E8EAF73F2598F53000204483 /* Gilroy-ExtraBold.ttf */,
+				E8EAF7402598F53000204483 /* Gilroy-Light.ttf */,
+				E8EAF7412598F53000204483 /* Gilroy-SemiBold.ttf */,
+				E8EAF7422598F53000204483 /* Gilroy-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E8EAF7622598FB1700204483 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				E8EAF76B2598FB6000204483 /* RegistrationVC.swift */,
+				E8EAF76C2598FB6000204483 /* RegistrationVC.xib */,
+			);
+			path = Registration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,10 +345,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EAF75A2598F53000204483 /* Gilroy-SemiBold.ttf in Resources */,
+				E8EAF7572598F53000204483 /* Gilroy-Medium.ttf in Resources */,
 				E8190E79259114DA00F65AE7 /* LaunchScreen.storyboard in Resources */,
+				E8EAF76E2598FB6000204483 /* RegistrationVC.xib in Resources */,
+				E8EAF7582598F53000204483 /* Gilroy-ExtraBold.ttf in Resources */,
 				E8DB03902597A117000384E5 /* SplashVC.xib in Resources */,
 				E8DB049525989283000384E5 /* LoginVC.xib in Resources */,
+				E8EAF75B2598F53000204483 /* Gilroy-Bold.ttf in Resources */,
 				E8190E76259114DA00F65AE7 /* Assets.xcassets in Resources */,
+				E8EAF7592598F53000204483 /* Gilroy-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +424,7 @@
 				E8DB038F2597A117000384E5 /* SplashVC.swift in Sources */,
 				E8190E6D259114D700F65AE7 /* AppDelegate.swift in Sources */,
 				E8DB049425989283000384E5 /* LoginVC.swift in Sources */,
+				E8EAF76D2598FB6000204483 /* RegistrationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,9 @@ class SplashVC: UIViewController {
         super.viewDidLoad()
 
        initialConfig()
-        
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+
+
     }
 
 

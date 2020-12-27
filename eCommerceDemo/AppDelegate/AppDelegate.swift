@@ -52,7 +52,6 @@ import UIKit
             let vc = SplashVC.init(nibName: "SplashVC", bundle: nil)
             let root = UINavigationController(rootViewController: vc)
             root.navigationBar.isHidden = true
-            
              window?.rootViewController = root
              window?.makeKeyAndVisible()
 
