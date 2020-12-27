@@ -48,10 +48,12 @@ import UIKit
         //MARK: Private Methods
         func initialConfig(){
             
-            //Back Button
             self.window = UIWindow(frame: UIScreen.main.bounds)
-             let controller = SplashVC()
-             window?.rootViewController = controller
+            let vc = SplashVC.init(nibName: "SplashVC", bundle: nil)
+            let root = UINavigationController(rootViewController: vc)
+            root.navigationBar.isHidden = true
+            
+             window?.rootViewController = root
              window?.makeKeyAndVisible()
 
         }

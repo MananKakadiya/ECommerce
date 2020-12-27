@@ -18,9 +18,12 @@ class SplashVC: UIViewController {
 
 
     func initialConfig(){
-        
-        let vc = LoginVC()
-        self.navigationController?.pushViewController(vc, animated: true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            let vc = LoginVC.init(nibName: "LoginVC", bundle: nil)
+            self.navigationController?.pushViewController(vc, animated: false)
+        }
+       
+       
     }
 
 }
